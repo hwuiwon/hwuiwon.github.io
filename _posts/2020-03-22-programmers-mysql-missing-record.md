@@ -1,11 +1,13 @@
 ---
 layout: post
-title: [MySQL] Missing Record
+title: MySQL - Missing Record
 subtitle : https://programmers.co.kr/learn/courses/30/lessons/59042
 tags: [Programmers, MySQL]
 author: Huey Kim
 comments : False
 ---
+
+
 
 This is a MySQL coding problem from programmers.co.kr.
 
