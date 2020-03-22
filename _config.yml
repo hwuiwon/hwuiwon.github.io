@@ -26,7 +26,9 @@ theme_settings :
       - skill : Java
         value : 85  # Percent value
       - skill : Android Programming
-        value : 70  # Percent value
+        value : 75  # Percent value
+      - skill : Python
+        value : 65  # Percent value
       - skill : MySQL
         value : 60  # Percent value
         
@@ -50,7 +52,7 @@ theme_settings :
 paginate: 5
 paginate_path: "blog/page:num"
 
-# Build Ssttings
+# Build Settings
 sass:
   sass_dir: _sass
   style: :compressed
