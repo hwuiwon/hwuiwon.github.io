@@ -9,7 +9,7 @@ theme_settings :
 
   # Profile Settings
   profile :
-    image : assets/img/smile.png
+    image : assets/img/me.jpeg
     username : Huey Kim
     description : IE student at Georgia Tech with the focus of Supply Chain Engineering
     experience :
@@ -41,7 +41,7 @@ theme_settings :
     twitter:
     youtube:
     facebook:
-    instagram:
+    instagram: khiuweiy
 
   # Disqus
   disqus_shortname :
