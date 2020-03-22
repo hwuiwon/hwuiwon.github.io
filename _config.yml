@@ -1,30 +1,40 @@
 # Site Settings
 baseurl: ""
-url : "https://naye0ng.github.io"
+url : "https://hwuiwon.github.io"
 
 # Blog Settings
 theme_settings :
-  title : Grape Theme
+  title : Huey Kim
   favicon : assets/favicon.ico
 
   # Profile Settings
   profile :
     image : assets/img/smile.png
-    username : Nayeong Kim
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    username : Huey Kim
+    description : IE student at Georgia Tech with the focus of Supply Chain Engineering
     experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
+      - start : 2019-05-08
+        end : 2019-07-26
+        experience : Koreana Patent Law Firm, Intern
+      - start : 2018-10-26
+        end : 2018-10-28
+        experience : HackATL, Participant
+      - start : 2018-01-01
+        end : 2018-06-01
+        experience : SK Broadband, Part-time
     skills : 
-      - skill : HTML5 & CSS
+      - skill : Java
         value : 85  # Percent value
+      - skill : Android Programming
+        value : 70  # Percent value
+      - skill : MySQL
+        value : 60  # Percent value
         
   # Icons
   icons :
-    email:  # Full email address, e.g. "sample@google.com"
-    linkedin:  # Full URL 
-    github: naye0ng
+    email: hwuiwon.kim@gmail.com
+    linkedin: https://www.linkedin.com/in/hueyk/
+    github: hwuiwon
     gitlab: 
     bitbucket: 
     google_plus:
