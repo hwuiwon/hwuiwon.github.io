@@ -11,6 +11,7 @@ comments : False
 
 MySQL coding problem from programmers.co.kr
 <br>
+
 There is `ANIMAL_INS` table that has structure shown below
 <br>
 
