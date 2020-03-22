@@ -2,7 +2,7 @@
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url : https://github.com/hwuiwon/SpaceTrader # Full URL
-    image : # path: assets/project/
+    image : "spacetrader.gif" # path: assets/project/
     date : 2019.02.12 - 2019-04-26
     title : SpaceTrader
     summary : A simple Android game
@@ -26,5 +26,5 @@
     image : "t4u.png" # path: assets/project/
     date : 2018-10-26 - 2018-10-28
     title : Tailor4U
-    summary : Precise, Fashion Recommendation Only For Your Body.
-    description : HackATL Hackathon
+    summary : HackATL Hackathon
+    description : Precise, Fashion Recommendation Only For Your Body.
