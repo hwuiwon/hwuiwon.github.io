@@ -24,7 +24,7 @@
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url : https://github.com/hwuiwon/Tailor4u
     image : "t4u.png" # path: assets/project/
-    date : 2019.06.09 - Developing
+    date : 2018-10-26 - 2018-10-28
     title : Tailor4U
     summary : Precise, Fashion Recommendation Only For Your Body.
     description : HackATL Hackathon
