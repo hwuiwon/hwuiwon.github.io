@@ -28,3 +28,13 @@
     title : Tailor4U
     summary : HackATL Hackathon
     description : Precise, Fashion Recommendation Only For Your Body.
+    
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url : https://github.com/hwuiwon/AlmaApp
+    image : "alma.jpeg" # path: assets/project/
+    date : 2017-06-25 - 2017-08-05
+    title : AlmaApp
+    summary : Application
+    description : AlmaApp parses GetAlma to see school related details without using website.
