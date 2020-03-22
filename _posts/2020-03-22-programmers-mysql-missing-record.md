@@ -9,7 +9,7 @@ comments : False
 
 
 
-This is a MySQL coding problem from programmers.co.kr.
+MySQL coding problem from programmers.co.kr
 <br>
 There is `ANIMAL_INS` table that has structure shown below
 <br>
