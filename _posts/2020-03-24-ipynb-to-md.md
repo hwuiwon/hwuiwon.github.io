@@ -37,14 +37,14 @@ uploaded = files.upload()
 <b>IV. Replace **YOUR_FILE** to name of your .ipynb file you intend to convert and run the code block.</b>
 
 {% highlight python %}
-!jupyter nbconvert --to markdown **YOUR_FILE**.ipynb
+!jupyter nbconvert --to markdown YOUR_FILE.ipynb
 {% endhighlight %}
 
 <b>V. If you have followed the steps above, .md file will be created. Type below to download it.</b>
 
 {% highlight python %}
 from google.colab import files
-files.download('**YOUR_FILE**.md')
+files.download('YOUR_FILE.md')
 {% endhighlight %}
 
 <br><br>
