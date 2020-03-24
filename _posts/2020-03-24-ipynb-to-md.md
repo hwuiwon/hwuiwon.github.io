@@ -1,0 +1,49 @@
+---
+layout: post
+title: Converting ipynb to .md
+subtitle : nbconvert
+tags: [Google_colab, python]
+author: Huey Kim
+comments : False
+---
+
+
+As I am working on Machine Learning by using Google Colab, 
+I wanted to know whether there's a way where I can convert what I wrote in Colab file to .md file
+so that I can upload them in my Github Blog.
+
+While surfing the web I found about this tool called [nbconvert](https://github.com/jupyter/nbconvert).
+<br>
+However, I am currently serving in military, which prevents me to install programs excluding pre-installed ones.
+
+I needed a way to use nbconvert online and figured out that I could do so by using Google Colab.
+
+1. Create a code block and run statement below.
+
+{% highlight python %}
+!pip install nbconvert
+{% endhighlight %}
+
+2. Type below
+
+{% highlight python %}
+from google.colab import files
+uploaded = files.upload()
+{% endhighlight %}
+
+3. If you run the code block above, an upload feature will appear. Simply select the .ipynb file and upload it.
+
+4. Replace **YOUR_FILE** to name of your .ipynb file you intend to convert and run the code block.
+
+{% highlight python %}
+!jupyter nbconvert --to markdown **YOUR_FILE**.ipynb
+{% endhighlight %}
+
+5. If you have followed the steps above, .md file will be created. Type below to download it.
+
+{% highlight python %}
+from google.colab import files
+files.download('**YOUR_FILE**.md')
+{% endhighlight %}
+
+Done!
