@@ -25,7 +25,7 @@ I needed a way to use nbconvert online and figured out that I could do so by usi
 !pip install nbconvert
 {% endhighlight %}
 
-<br><br>
+<br>
 <b>II. Type below</b>
 
 {% highlight python %}
@@ -33,7 +33,7 @@ from google.colab import files
 uploaded = files.upload()
 {% endhighlight %}
 
-<br><br>
+<br>
 <b>III. If you run the code block above, an upload feature will appear. Simply select the .ipynb file and upload it.</b>
 <br><br>
 <b>IV. Replace **YOUR_FILE** to name of your .ipynb file you intend to convert and run the code block.</b>
@@ -42,7 +42,7 @@ uploaded = files.upload()
 !jupyter nbconvert --to markdown YOUR_FILE.ipynb
 {% endhighlight %}
 
-<br><br>
+<br>
 <b>V. If you have followed the steps above, .md file will be created. Type below to download it.</b>
 
 {% highlight python %}
