@@ -19,32 +19,33 @@ However, I am currently serving in military, which prevents me to install progra
 I needed a way to use nbconvert online and figured out that I could do so by using Google Colab.
 <br><br>
 
-> 1. Create a code block and run statement below.
+> I. Create a code block and run statement below.
 
 {% highlight python %}
 !pip install nbconvert
 {% endhighlight %}
 
-> 2. Type below
+> II. Type below
 
 {% highlight python %}
 from google.colab import files
 uploaded = files.upload()
 {% endhighlight %}
 
-> 3. If you run the code block above, an upload feature will appear. Simply select the .ipynb file and upload it.
+> III. If you run the code block above, an upload feature will appear. Simply select the .ipynb file and upload it.
 
-> 4. Replace **YOUR_FILE** to name of your .ipynb file you intend to convert and run the code block.
+> IV. Replace **YOUR_FILE** to name of your .ipynb file you intend to convert and run the code block.
 
 {% highlight python %}
 !jupyter nbconvert --to markdown **YOUR_FILE**.ipynb
 {% endhighlight %}
 
-> 5. If you have followed the steps above, .md file will be created. Type below to download it.
+> V. If you have followed the steps above, .md file will be created. Type below to download it.
 
 {% highlight python %}
 from google.colab import files
 files.download('**YOUR_FILE**.md')
 {% endhighlight %}
 
+<br><br>
 Done!
