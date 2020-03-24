@@ -7,19 +7,18 @@ author: Huey Kim
 comments : False
 ---
 
-<h1><b>Summary</b></h1>
-
+## **Summary**
 We call performance on out-of-sample data of the models learned by the algorithm as **Generalization Performance**.
 
 In order to check model's performance by the **"right"** way, we split the train data set into two and use one of them in training and use the other part to test the model.
 
-<h2><b>Rules</b></h2>
+### **Rules**
 
 > When spliting the training data set into two, there should be more train set than test set.
 
 > Training data should be mixed evenly between both sets.
 
-<h2><b>Wisconsin breast cancer dataset</b></h2>
+## **Wisconsin breast cancer dataset**
 
 We will use **Wisconsin breast cancer dataset** from scikit-learn.
 
@@ -158,7 +157,7 @@ np.unique(y_train, return_counts=True)
 
 
 
-<h3><b>Embodying Logistic Regression</b></h3>
+### **Embodying Logistic Regression**
 
 ![Concept](/assets/img/posts/p2_logistic.png)
 
@@ -228,7 +227,7 @@ It seems that our model has accuracy of **82.46%**
 
 We will now try to improve the accuracy.
 
-<h3><b>Gradient Descent</b></h3>
+### **Gradient Descent**
 
 We used **stochastic gradient descent**, which is calculating gradient by randomly choosing one sample from the data.
 
@@ -328,7 +327,7 @@ plt.show()
 
 We can see that accuracy increased from **0.82** to **0.89**.<br>This is because we mixed index of training set for each epoch.
 
-<h2><b>Using Class from scikit-learn</b></h2>
+## **Using Class from scikit-learn**
 
 **SGDClassifier** is a class that implemens gradient descent.
 
@@ -385,7 +384,7 @@ However, there is a high probability that this model will **not perform well in 
 
 So what should we do?
 
-<h3><b>Preparing Validation Set</b></h3>
+### **Preparing Validation Set**
 
 We simply don't have to use test set to tune our model to prevent problem mentioned previously.<br>We will create an another set called **validation set**.
 
@@ -408,7 +407,7 @@ print(len(x_train), len(x_val))
 
 Here, we divided original training model into new training model and validation model with the ratio of 8:2.
 
-<h3><b>Evaluating with Validation Set</b></h3>
+### **Evaluating with Validation Set**
 
 
 ```
@@ -430,7 +429,7 @@ Model's accuracy has decreased compared to previous trial that didn't have valid
 
 There are only small number of data in Wisconsin breast cancer data set that scikit-learn provides.<br>If we had more data, it would have been better.
 
-<h4><b>Splitting ratio</b></h4>
+#### **Splitting ratio**
 
 > **n > 100,000**: 8:1:1<br>
 > **n > 1,000,000**: 98:1:1
