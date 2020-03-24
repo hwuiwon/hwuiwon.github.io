@@ -7,10 +7,7 @@ author: Huey Kim
 comments : False
 ---
 
-# **Scikit-learn**
-
 ## **Summary**
-
 We call performance on out-of-sample data of the models learned by the algorithm as **Generalization Performance**.
 
 In order to check model's performance by the **"right"** way, we split the train data set into two and use one of them in training and use the other part to test the model.
@@ -88,7 +85,7 @@ plt.show()
 ```
 
 
-![plot1](https://github.com/hwuiwon/hwuiwon.github.io/blob/master/assets/img/posts/p2_plot_1.png)
+![plot1](/assets/img/posts/p2_plot_1.png)
 
 
 By looking at the box plot, we can see distribution of **4, 14, and 24th feature** is greater than others.
@@ -162,7 +159,7 @@ np.unique(y_train, return_counts=True)
 
 ### **Embodying Logistic Regression**
 
-![Concept](https://github.com/hwuiwon/hwuiwon.github.io/blob/master/assets/img/posts/p2_logistic.png)
+![Concept](/assets/img/posts/p2_logistic.png)
 
 
 ```
@@ -325,7 +322,7 @@ plt.show()
 ```
 
 
-![plot2](https://github.com/hwuiwon/hwuiwon.github.io/blob/master/assets/img/posts/p2_plot_2.png)
+![plot2](/assets/img/posts/p2_plot_2.png)
 
 
 We can see that accuracy increased from **0.82** to **0.89**.<br>This is because we mixed index of training set for each epoch.
