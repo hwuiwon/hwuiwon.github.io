@@ -2,7 +2,7 @@
 layout: post
 title: Studying Scikit-learn (1)
 subtitle : https://colab.research.google.com/drive/1m9SO3lNStzW2zLcZj4iu-agdV_3ZwD0E
-tags: [Machine Learning, Google colab, tensorflow, python]
+tags: [Machine_Learning, Google_colab, tensorflow, python]
 author: Huey Kim
 comments : False
 ---
