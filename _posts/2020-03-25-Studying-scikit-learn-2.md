@@ -13,7 +13,7 @@ comments : False
 
 Data collected in real life may not be uniform, unlike data sets in scikit-learn and other machine learning packages that are well processed.<br>If we use those data without preprocessing, we won't be able to yield accurate results.
 
-#### **Case 1: Scale Difference**
+#### **Problem: Scale Difference**
 
 If the scale of data's characteristics differs a lot with each other, our model may not find  the optimal value of $w$ and b.
 
@@ -100,7 +100,8 @@ We made following changes to original SingleLayer:
 
 1. Added weight_history & learning_rate when it gets initialized.
 2. Record weight history and multiply learning weight with weight gradient when changing the weight.
-<br>
+
+<br><br>
 Now lets test and see the results.
 
 
@@ -146,7 +147,7 @@ By looking at the graph, we can see the value of w3 **fluctuates widely**.<br>Th
 <br>
 We can improve our results by using **standarization**.
 
-#### **Solution 1: Standarization**
+#### **Solution: Standarization**
 
 Formula: z = (x - mu) / s, where x is value, mu is mean, and s is standard deviation.
 
@@ -210,7 +211,7 @@ It is important to **scale training set and validation set with same ratio**.
 **Overfitting**: The model performs well with training set, but doesn't perform well with validation set.<br>Ex) 99% accuracy with training set but 80% accuracy with validation set
 <br><br>
 **Underfitting**: The performace between training set and validation set is similar but it's overall accuracy is low.
-
+<br><br>
 We also say overfitted model has **high variance** and unferfitted model is **highly biased**.
 
 #### **Main Cause**
