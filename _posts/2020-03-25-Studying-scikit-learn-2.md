@@ -33,8 +33,8 @@ plt.show()
 ![graph1](/assets/img/posts/p4_graph_1.png)
 
 
-By looking at the graph, we can see that the scale of 'mean perimeter' and 'mean area' is different.<br>Values of mean perimeter are distributed between **100 ~ 200** while values of mean area are distributed between **200 ~ 2,000**.
-<br>
+By looking at the graph, we can see that the scale of 'mean perimeter' and 'mean area' is different.<br><br>Values of mean perimeter are distributed between **100 ~ 200** while values of mean area are distributed between **200 ~ 2,000**.
+<br><br>
 What will happen to $w$ if we apply logistic regression function with these values?
 
 We will find out by modifying SingleLayer class that was created previously.
@@ -121,7 +121,7 @@ layer1.score(x_val, y_val)
 
 
 Before we adjust the scale of data's characteristics, we got **91.2%** accuracy.
-<br>
+<br><br>
 Now we will see how our weight changed over each epoch.<br>Final value of $w$ will be shown as a red dot.
 
 
@@ -148,7 +148,7 @@ We can improve our results by using **standarization**.
 
 #### **Solution 1: Standarization**
 
-Formula: ![equation](https://latex.codecogs.com/gif.latex?z%3D%5Cfrac%7Bx-%5Cmu%7D%7Bs%7D%24), where x is value, mu is mean, and s is standard deviation.
+Formula: z = (x - mu) / s, where x is value, mu is mean, and s is standard deviation.
 
 <br>
 We will calculate mean and standard deviation by using numpy.
@@ -208,7 +208,7 @@ It is important to **scale training set and validation set with same ratio**.
 #### **Definition**
 
 **Overfitting**: The model performs well with training set, but doesn't perform well with validation set.<br>Ex) 99% accuracy with training set but 80% accuracy with validation set
-<br>
+<br><br>
 **Underfitting**: The performace between training set and validation set is similar but it's overall accuracy is low.
 
 We also say overfitted model has **high variance** and unferfitted model is **highly biased**.
@@ -232,7 +232,7 @@ Where x-axis is **accuracy** and y-axis is **epochs**.
 #### **Bias-variance Tradeoff**
 
 Models with a lower bias in parameter estimation have a higher variance of the parameter estimates across samples, and vice versa.
-<br>
+<br><br>
 We need to select an appropriate point to prevent high bias and variance.<br>To record losses in validation, we will make edits in SingleLayer2 class.
 
 
@@ -332,7 +332,7 @@ plt.show()
 
 
 We can see that validation loss gets higher than training set after 20 epochs.<br><br>At this point, as we go through more epochs to train our model, $w$ will **fit better with training set**, but less with validation set.
-<br>
+<br><br>
 So after going through 20 epochs, there is no need to train anymore.<br>We call this technique '**early stopping**'.
 
 
