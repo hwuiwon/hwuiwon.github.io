@@ -228,7 +228,7 @@ We also say overfitted model has **high variance** and unferfitted model is **hi
 
 ![graph4](/assets/img/posts/p4_graph_4.png)
 
-Where x-axis is **accuracy** and y-axis is **epochs**.
+Where x-axis is **epochs** and y-axis is **accuracy**.
 
 #### **Bias-variance Tradeoff**
 
