@@ -38,3 +38,13 @@
     title : AlmaApp
     summary : Application
     description : AlmaApp parses GetAlma to see school related details without using website.
+
+- project :
+    print : False # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url : https://github.com/hwuiwon/hwuiwon.github.io
+    image : "ml.jpeg" # path: assets/project/
+    date : 2020-03-20 - Current
+    title : Machine Learning Study
+    summary : Tensorflow & Python
+    description : Studying Machine Learning by myself by using Google Colab and Tensorflow
