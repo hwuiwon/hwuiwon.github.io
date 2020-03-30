@@ -2,7 +2,7 @@
 layout: post
 title: Studying Scikit-learn (1)
 subtitle : Logistic Regression and Gradient Descent
-tags: [Machine_Learning, Google_colab, tensorflow, python]
+tags: [Machine_Learning, Google_colab, Tensorflow, Python]
 author: Huey Kim
 comments : False
 ---
