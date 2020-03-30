@@ -2,7 +2,7 @@
 layout: post
 title: Studying Scikit-learn (3)
 subtitle : Regularization
-tags: [Machine_Learning, Google_colab, tensorflow, python]
+tags: [Machine_Learning, Google_colab, Tensorflow, Python]
 author: Huey Kim
 comments : False
 ---
