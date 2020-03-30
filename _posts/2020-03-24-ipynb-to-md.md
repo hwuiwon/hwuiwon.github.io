@@ -2,7 +2,7 @@
 layout: post
 title: Converting ipynb to .md
 subtitle : nbconvert
-tags: [Google_colab, python]
+tags: [Google_colab, Python]
 author: Huey Kim
 comments : False
 ---
