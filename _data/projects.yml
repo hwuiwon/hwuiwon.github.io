@@ -48,3 +48,13 @@
     title : Machine Learning Study
     summary : Tensorflow & Python
     description : Studying Machine Learning by myself by using Google Colab and Tensorflow
+    
+- project :
+    print : False # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url : https://github.com/hwuiwon/data-analysis-study
+    image : "bigdata.jpg" # path: assets/project/
+    date : 2020-03-31 - Current
+    title : Data Analysis Study
+    summary : Big Data & Analysis
+    description : Learning how to analyze data using R and Google Colab
