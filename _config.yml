@@ -30,7 +30,7 @@ theme_settings :
       - skill : Python
         value : 65  # Percent value
       - skill : MySQL
-        value : 60  # Percent value
+        value : 50  # Percent value
         
   # Icons
   icons :
