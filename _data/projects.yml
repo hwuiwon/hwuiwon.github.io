@@ -1,5 +1,15 @@
 - project :
     print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url : https://github.com/hwuiwon/covid-19-analysis-kr
+    image : "covid19.png" # path: assets/project/
+    date : 2020-04-06 - Current
+    title : Covid 19 Analysis KR
+    summary : Big Data & Analysis
+    description : Analysis and visualization of COVID-19 Pandemic spread in South Korea.
+
+- project :
+    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
     url : https://github.com/hwuiwon/SpaceTrader # Full URL
     image : "spacetrader.gif" # path: assets/project/
@@ -48,16 +58,6 @@
     title : Machine Learning Study
     summary : Tensorflow & Python
     description : Studying Machine Learning by myself by using Google Colab and Tensorflow
-    
-- project :
-    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url : https://github.com/hwuiwon/covid-19-analysis-kr
-    image : "covid19.png" # path: assets/project/
-    date : 2020-04-06 - Current
-    title : Covid 19 Analysis KR
-    summary : Big Data & Analysis
-    description : Analysis and visualization of COVID-19 Pandemic spread in South Korea.
     
 - project :
     print : False # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
